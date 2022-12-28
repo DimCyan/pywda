@@ -1,8 +1,8 @@
-from common_types import *
+from .common_types import *
 import json
 import requests
 import retry
-from _timeout import timeout
+from ._timeout import timeout
 from logzero import logger
 DEFAULT_TIMEOUT = 15
 
